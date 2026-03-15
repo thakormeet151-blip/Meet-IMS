@@ -40,8 +40,9 @@ CLIENT_URL=http://localhost:5173
 Run these **three separate** installs (recommended for Windows):
 
 ```bash
-# From project root
-npm install
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/coreinventory-app.git
+cd coreinventory-app
 
 # Backend
 cd backend
