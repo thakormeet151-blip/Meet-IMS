@@ -1,0 +1,16 @@
+{
+  "name": "coreinventory-app",
+  "version": "1.0.0",
+  "description": "CoreInventory - Full Stack Inventory Management System",
+  "scripts": {
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "dev": "concurrently --kill-others-on-fail -n \"BACKEND,FRONTEND\" -c \"yellow,cyan\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npx nodemon server.js",
+    "dev:frontend": "cd frontend && npx vite"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
