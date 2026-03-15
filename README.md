@@ -41,7 +41,7 @@ Run these **three separate** installs (recommended for Windows):
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/coreinventory-app.git
+git clone https://github.com/YOUR_USERNAME/coreinventory-app.git](https://github.com/thakormeet151-blip/Meet-IMS.git
 cd coreinventory-app
 
 # Backend
